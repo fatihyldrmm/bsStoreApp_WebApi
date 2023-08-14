@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repositories.Contracts
+namespace Services.Contracts
 {
-    public interface IRepositoryManager
+    public interface IServiceManager
     {
-        IBookRepository Book { get; }
-        void Save();
+        IBookService BookService { get; }
     }
 }
