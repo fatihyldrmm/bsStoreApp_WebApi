@@ -1,13 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using Repositories.EFCore;
 using WebAPI.Extensions;
-using Repositories.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 
 builder.Services.AddControllers()
+    .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
     .AddNewtonsoftJson();
 
 builder.Services.AddEndpointsApiExplorer();

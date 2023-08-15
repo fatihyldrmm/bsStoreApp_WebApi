@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    internal class BookManager : IBookService
+    public class BookManager : IBookService
     {
         private readonly IRepositoryManager _manager;
 
@@ -43,7 +43,7 @@ namespace Services
             return _manager.Book.GetAllBooks(trackChanges);
         }
 
-        public Book GetOneBook(int id, bool trackChanges)
+        public Book GetOneBookById(int id, bool trackChanges)
         {
             return _manager.Book.GetOneBookById(id, trackChanges);
         }
@@ -54,10 +54,6 @@ namespace Services
             var entity = _manager.Book.GetOneBookById(id, trackChanges);
             if (entity is null)
                 throw new Exception($"Book with id:{id} could not found.");
-
-            // check params
-            if (book is null)
-                throw new ArgumentNullException (nameof(book));
 
             entity.Title = book.Title;
             entity.Price = book.Price;
