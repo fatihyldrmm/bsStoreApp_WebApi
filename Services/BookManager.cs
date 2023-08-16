@@ -1,28 +1,23 @@
-﻿using Entities.Models;
+﻿using Entities.Exceptions;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Services
 {
     public class BookManager : IBookService
     {
         private readonly IRepositoryManager _manager;
+        private readonly ILoggerService _logger;
 
-        public BookManager(IRepositoryManager manager)
+        public BookManager(IRepositoryManager manager, ILoggerService logger)
         {
             _manager = manager;
+            _logger = logger;
         }
 
         public Book CreateOneBook(Book book)
         {
-            if (book is null)
-                throw new ArgumentNullException(nameof(book));  
-            
             _manager.Book.CreateOneBook(book);
             _manager.Save();
             return book;
@@ -32,8 +27,8 @@ namespace Services
         {
             var entity = _manager.Book.GetOneBookById(id, trackChanges);
             if (entity is null)
-                throw new Exception($"Book with id:{id} could not found."); 
-            
+                throw new BookNotFoundException(id);
+    
             _manager.Book.DeleteOneBook(entity);
             _manager.Save();
         }
@@ -45,7 +40,10 @@ namespace Services
 
         public Book GetOneBookById(int id, bool trackChanges)
         {
-            return _manager.Book.GetOneBookById(id, trackChanges);
+            var book = _manager.Book.GetOneBookById(id, trackChanges);
+            if (book is null)
+                throw new BookNotFoundException(id);
+            return book;            
         }
 
         public void UpdateOneBook(int id, Book book, bool trackChanges)
@@ -53,7 +51,7 @@ namespace Services
             // check entity
             var entity = _manager.Book.GetOneBookById(id, trackChanges);
             if (entity is null)
-                throw new Exception($"Book with id:{id} could not found.");
+                throw new BookNotFoundException(id);
 
             entity.Title = book.Title;
             entity.Price = book.Price;

@@ -1,0 +1,45 @@
+2023-08-15 16:19:13.9892 Info Message Template Auto Format enabled
+2023-08-15 16:19:13.9892 Info Adding target FileTarget(Name=logfile)
+2023-08-15 16:19:13.9892 Info Closing old configuration.
+2023-08-15 16:19:14.0212 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-15 16:19:19.2435 Info Message Template Auto Format enabled
+2023-08-15 16:19:19.3629 Info Adding target FileTarget(Name=logfile)
+2023-08-15 16:19:19.3856 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-15 16:19:22.2766 Info Configuration file change detected! Reloading in 1000ms...
+2023-08-15 16:19:23.2869 Info Reloading configuration...
+2023-08-15 16:19:23.2869 Info Loading NLog config from XML file: C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-15 16:19:23.2869 Info Message Template Auto Format enabled
+2023-08-15 16:19:23.3001 Info Adding target FileTarget(Name=logfile)
+2023-08-15 16:19:23.3001 Info Closing old configuration.
+2023-08-15 16:19:23.3001 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-15 16:19:27.2715 Info Message Template Auto Format enabled
+2023-08-15 16:19:27.3078 Info Adding target FileTarget(Name=logfile)
+2023-08-15 16:19:27.3257 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-16 00:52:29.8318 Info AppDomain Shutting down. LogFactory closing...
+2023-08-16 00:52:29.8545 Info LogFactory has been closed.
+2023-08-16 00:54:07.3580 Info Message Template Auto Format enabled
+2023-08-16 00:54:07.4510 Info Adding target FileTarget(Name=logfile)
+2023-08-16 00:54:07.4814 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-16 15:03:04.0111 Info Message Template Auto Format enabled
+2023-08-16 15:03:04.1582 Info Adding target FileTarget(Name=logfile)
+2023-08-16 15:03:04.1948 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-16 15:05:15.4517 Info Message Template Auto Format enabled
+2023-08-16 15:05:15.5886 Info Adding target FileTarget(Name=logfile)
+2023-08-16 15:05:15.6186 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-16 15:05:54.0463 Info Message Template Auto Format enabled
+2023-08-16 15:05:54.0972 Info Adding target FileTarget(Name=logfile)
+2023-08-16 15:05:54.1242 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-16 17:42:24.4552 Info Message Template Auto Format enabled
+2023-08-16 17:42:24.5086 Info Adding target FileTarget(Name=logfile)
+2023-08-16 17:42:24.5307 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-16 18:26:23.2754 Info Message Template Auto Format enabled
+2023-08-16 18:26:23.3750 Info Adding target FileTarget(Name=logfile)
+2023-08-16 18:26:23.3981 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-16 18:26:28.6214 Info Message Template Auto Format enabled
+2023-08-16 18:26:28.6581 Info Adding target FileTarget(Name=logfile)
+2023-08-16 18:26:28.6746 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
+2023-08-16 18:27:23.0464 Info AppDomain Shutting down. LogFactory closing...
+2023-08-16 18:27:23.0747 Info LogFactory has been closed.
+2023-08-16 19:51:48.3865 Info Message Template Auto Format enabled
+2023-08-16 19:51:48.5004 Info Adding target FileTarget(Name=logfile)
+2023-08-16 19:51:48.5275 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\fatih\Desktop\Fatih\WEB API\bsStoreApp\WebAPI\nlog.config
